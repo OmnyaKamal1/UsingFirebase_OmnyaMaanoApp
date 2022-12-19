@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>367003159844-o1i2ojc319tbqlgv97ndd1lo7gsopsql.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.367003159844-o1i2ojc319tbqlgv97ndd1lo7gsopsql</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDDggm48mkUhE8j2ljEa0Qilr7cOa6yIzY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>367003159844</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.com.UsingFirebase-OmnyaMaanoApp</string>
+	<key>PROJECT_ID</key>
+	<string>usingfirebaseomnyamaanoapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>usingfirebaseomnyamaanoapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:367003159844:ios:105df5158e6e94e0e877b1</string>
+</dict>
+</plist>
