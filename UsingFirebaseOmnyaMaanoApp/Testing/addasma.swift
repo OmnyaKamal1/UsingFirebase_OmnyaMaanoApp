@@ -14,10 +14,23 @@ struct addasma: View {
     @State private var showWelcomeView = false
     var body: some View {
         
-        
-        Button("Toggle Sheet") {
+        Button{
             showSheet.toggle()
+//            هنا علامه + ماتطلع عندي
+        }label:{
+            Image(systemName: "plus")
+                .resizable()
+                .frame(width: 36.0, height: 36.0)
+            
         }
+        .padding(.leading, 301.0)
+        .imageScale(.large)
+        .foregroundColor(Color(red: 0.396, green: 0.513, blue: 0.38))
+        
+        .padding()
+//        Button("Toggle Sheet") {
+//            showSheet.toggle()
+//        }
         .sheet(isPresented: $showSheet) {
             
             

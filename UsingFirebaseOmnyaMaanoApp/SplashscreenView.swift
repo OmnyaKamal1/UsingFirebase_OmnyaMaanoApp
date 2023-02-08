@@ -19,20 +19,20 @@ struct SplashscreenView: View {
         } else {
             VStack {
                 VStack {
-                    Image("logo5")
+                    Image("logo9")
                     
                 }
                 .scaleEffect(size)
                 .opacity(opacity)
                 .onAppear{
-                    withAnimation(.easeIn(duration: 1.2)) {
+                    withAnimation(.easeIn(duration: 1.1)) {
                         self.size = 0.9
                         self.opacity = 1.00
                     }
                 }
             }
             .onAppear(){
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                     withAnimation {
                         
                         self.isActive = true

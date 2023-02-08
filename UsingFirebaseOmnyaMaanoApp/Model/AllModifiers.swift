@@ -44,7 +44,7 @@ struct ButtonModifier: ViewModifier {
 struct PageNameModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .bold()
+            //.bold()
             .font(.system(size: 30))
             .foregroundColor(Color("MaanoGreen"))
     }

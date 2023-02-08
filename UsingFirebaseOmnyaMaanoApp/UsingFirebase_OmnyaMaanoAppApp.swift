@@ -18,8 +18,12 @@ struct UsingFirebaseOmnyaMaanoAppApp: App {
             //EditProfiletest()
             //RegisterTest2()
             //RegisterTest()
-            //LoginTest()
+          // LoginTest()
             SplashscreenView()
+            //EditProfiletest()
+            //InvoiceTemplate()
+            //ContentView()
+            //Addinvoice()
         }
     }
 }

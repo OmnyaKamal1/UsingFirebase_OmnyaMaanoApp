@@ -31,11 +31,12 @@ struct LoginTest: View {
             Button {
                 print("Button was tapped")
                 signInUser(email: email, password: password)
-                
             } label: {
                 Text("Login")
                     .modifier(ButtonModifier())
-            }.disabled(!signInProcessing && !email.isEmpty && !password.isEmpty ? false : true)
+
+            }
+//            }.disabled(!signInProcessing && !email.isEmpty && !password.isEmpty ? false : true)
             //                if signInProcessing {
             //                    ProgressView()
             //                    NavigationLink(destination: LoginTest)(show: self.$show), isActive: self.$show){
@@ -71,7 +72,8 @@ struct LoginTest: View {
                     }//End of main Vstack
         .navigationBarBackButtonHidden(true)
         .fullScreenCover(isPresented: $toView) {
-            EditProfiletest()
+            Addinvoice()
+            //EditProfiletest()
         }//fullScreenCover
 
         }//End of NavigationView

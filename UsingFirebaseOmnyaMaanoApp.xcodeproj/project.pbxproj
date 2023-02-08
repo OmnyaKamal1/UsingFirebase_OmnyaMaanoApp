@@ -18,6 +18,13 @@
 		A23274EB29503D580042D844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23274EA29503D580042D844 /* ContentView.swift */; };
 		A23274ED29503E080042D844 /* SplashscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23274EC29503E080042D844 /* SplashscreenView.swift */; };
 		A23274EF29503F6D0042D844 /* addasma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23274EE29503F6D0042D844 /* addasma.swift */; };
+		A23274F12951934E0042D844 /* AllInvoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23274F02951934E0042D844 /* AllInvoices.swift */; };
+		A25BC6132953032E00622F27 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC6122953032E00622F27 /* UserForm.swift */; };
+		A25BC6152953036F00622F27 /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC6142953036F00622F27 /* InvoiceView.swift */; };
+		A25BC6172953038400622F27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC6162953038400622F27 /* Extensions.swift */; };
+		A25BC6192953039800622F27 /* InvoiceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC6182953039800622F27 /* InvoiceTemplate.swift */; };
+		A25BC61B295303A700622F27 /* InvoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC61A295303A700622F27 /* InvoiceViewModel.swift */; };
+		A25BC61F295318D600622F27 /* Addinvoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BC61E295318D600622F27 /* Addinvoice.swift */; };
 		A2DD0C90294C8A8800D9E0D5 /* UsingFirebase_OmnyaMaanoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD0C8F294C8A8800D9E0D5 /* UsingFirebase_OmnyaMaanoAppApp.swift */; };
 		A2DD0C92294C8A8800D9E0D5 /* AllMyInvoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD0C91294C8A8800D9E0D5 /* AllMyInvoices.swift */; };
 		A2DD0C94294C8A8A00D9E0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DD0C93294C8A8A00D9E0D5 /* Assets.xcassets */; };
@@ -40,6 +47,14 @@
 		A23274EA29503D580042D844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A23274EC29503E080042D844 /* SplashscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenView.swift; sourceTree = "<group>"; };
 		A23274EE29503F6D0042D844 /* addasma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addasma.swift; sourceTree = "<group>"; };
+		A23274F02951934E0042D844 /* AllInvoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInvoices.swift; sourceTree = "<group>"; };
+		A25BC6112952ED3200622F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A25BC6122953032E00622F27 /* UserForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
+		A25BC6142953036F00622F27 /* InvoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
+		A25BC6162953038400622F27 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A25BC6182953039800622F27 /* InvoiceTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceTemplate.swift; sourceTree = "<group>"; };
+		A25BC61A295303A700622F27 /* InvoiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewModel.swift; sourceTree = "<group>"; };
+		A25BC61E295318D600622F27 /* Addinvoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addinvoice.swift; sourceTree = "<group>"; };
 		A2DD0C8C294C8A8800D9E0D5 /* UsingFirebaseOmnyaMaanoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingFirebaseOmnyaMaanoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DD0C8F294C8A8800D9E0D5 /* UsingFirebase_OmnyaMaanoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingFirebase_OmnyaMaanoAppApp.swift; sourceTree = "<group>"; };
 		A2DD0C91294C8A8800D9E0D5 /* AllMyInvoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMyInvoices.swift; sourceTree = "<group>"; };
@@ -80,6 +95,7 @@
 		A2040D4E294E152100FE0F30 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A25BC61E295318D600622F27 /* Addinvoice.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -103,6 +119,7 @@
 		A2DD0C8E294C8A8800D9E0D5 /* UsingFirebaseOmnyaMaanoApp */ = {
 			isa = PBXGroup;
 			children = (
+				A25BC6112952ED3200622F27 /* Info.plist */,
 				A2040D47294CA9FD00FE0F30 /* GoogleService-Info.plist */,
 				A2DD0C8F294C8A8800D9E0D5 /* UsingFirebase_OmnyaMaanoAppApp.swift */,
 				A23274EC29503E080042D844 /* SplashscreenView.swift */,
@@ -112,6 +129,8 @@
 				A2DD0CA5294C909900D9E0D5 /* Register.swift */,
 				A2DD0CA7294C914C00D9E0D5 /* Login.swift */,
 				A2DD0CA9294C926200D9E0D5 /* EditProfile.swift */,
+				A25BC6122953032E00622F27 /* UserForm.swift */,
+				A25BC6142953036F00622F27 /* InvoiceView.swift */,
 				A2DD0CAD294C971500D9E0D5 /* Testing */,
 				A2DD0C93294C8A8A00D9E0D5 /* Assets.xcassets */,
 				A2DD0C95294C8A8A00D9E0D5 /* Preview Content */,
@@ -123,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				A2DD0C96294C8A8A00D9E0D5 /* Preview Assets.xcassets */,
+				A25BC61A295303A700622F27 /* InvoiceViewModel.swift */,
+				A25BC6162953038400622F27 /* Extensions.swift */,
+				A25BC6182953039800622F27 /* InvoiceTemplate.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -134,6 +156,7 @@
 				A23274EA29503D580042D844 /* ContentView.swift */,
 				A23274EE29503F6D0042D844 /* addasma.swift */,
 				A2040D4B294DEC0700FE0F30 /* LoginTest.swift */,
+				A23274F02951934E0042D844 /* AllInvoices.swift */,
 				A2040D53294E288A00FE0F30 /* EditProfiletest.swift */,
 				A2040D55294E52D100FE0F30 /* RegisterTest2.swift */,
 			);
@@ -225,12 +248,19 @@
 				A23274EF29503F6D0042D844 /* addasma.swift in Sources */,
 				A23274EB29503D580042D844 /* ContentView.swift in Sources */,
 				A2DD0CAC294C970A00D9E0D5 /* RegisterTest.swift in Sources */,
+				A23274F12951934E0042D844 /* AllInvoices.swift in Sources */,
+				A25BC61F295318D600622F27 /* Addinvoice.swift in Sources */,
 				A2040D4C294DEC0700FE0F30 /* LoginTest.swift in Sources */,
 				A2DD0C9E294C8ADF00D9E0D5 /* OmnyaTextFeilds.swift in Sources */,
 				A2DD0CA8294C914C00D9E0D5 /* Login.swift in Sources */,
 				A2040D54294E288A00FE0F30 /* EditProfiletest.swift in Sources */,
 				A2DD0C90294C8A8800D9E0D5 /* UsingFirebase_OmnyaMaanoAppApp.swift in Sources */,
+				A25BC6132953032E00622F27 /* UserForm.swift in Sources */,
 				A2040D4A294D218B00FE0F30 /* OmnyaSecureFeilds.swift in Sources */,
+				A25BC6152953036F00622F27 /* InvoiceView.swift in Sources */,
+				A25BC6172953038400622F27 /* Extensions.swift in Sources */,
+				A25BC61B295303A700622F27 /* InvoiceViewModel.swift in Sources */,
+				A25BC6192953039800622F27 /* InvoiceTemplate.swift in Sources */,
 				A2040D56294E52D100FE0F30 /* RegisterTest2.swift in Sources */,
 				A2040D58294E570A00FE0F30 /* Users.swift in Sources */,
 				A2DD0CAA294C926200D9E0D5 /* EditProfile.swift in Sources */,
@@ -361,11 +391,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_ASSET_PATHS = "\"UsingFirebaseOmnyaMaanoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6KZNQG7LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UsingFirebaseOmnyaMaanoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -390,11 +422,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_ASSET_PATHS = "\"UsingFirebaseOmnyaMaanoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6KZNQG7LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UsingFirebaseOmnyaMaanoApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

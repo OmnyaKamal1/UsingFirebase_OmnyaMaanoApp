@@ -66,7 +66,7 @@ struct RegisterTest2: View {
                     ProgressView()//ProgressView shown means that there are things performd in the backend
                 }
                 if !signUpErrorMessage.isEmpty {
-                    Text("Failed creating account: \(signUpErrorMessage)") //To show the error msg to the user ex: not matched, email already used...
+                    Text("Failed creating account: \(signUpErrorMessage)").frame(height:50) //To show the error msg to the user ex: not matched, email already used...
                         .foregroundColor(.red)
                         .padding()
                 }
